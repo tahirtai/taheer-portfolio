@@ -1,6 +1,6 @@
 # 🚀 Taheer Tai | Full Stack & AI/ML Engineer Portfolio
 
-[![Live Deployment](https://img.shields.io/badge/Live-Deployment-4f46e5?style=for-the-badge&logo=vercel)](https://tahirtai.github.io/)
+[![Live Deployment](https://img.shields.io/badge/Live-Deployment-4f46e5?style=for-the-badge&logo=vercel)](https://taheer-portfolio.vercel.app/)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-emerald?style=for-the-badge)](#)
 
 A high-performance, premium portfolio website showcasing my work as a Full Stack and AI/ML Engineer. Built with modern web technologies, GPU-accelerated animations, and a strict focus on SEO, performance, and accessibility.

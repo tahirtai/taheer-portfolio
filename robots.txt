@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tahirtai.github.io/sitemap.xml
+Sitemap: https://taheer-portfolio.vercel.app/sitemap.xml
