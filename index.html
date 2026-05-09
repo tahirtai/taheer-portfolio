@@ -274,6 +274,13 @@
       .animate-spin-slow { animation: spin-slow 20s linear infinite; will-change: transform; }
       .animate-glow-pulse { animation: glow-pulse 3s ease-in-out infinite; will-change: box-shadow; }
       .blob { animation: blob-move 8s ease-in-out infinite; will-change: transform; }
+      
+      @keyframes scroll-wheel {
+        0% { transform: translateY(0); opacity: 1; }
+        40% { opacity: 1; }
+        100% { transform: translateY(12px); opacity: 0; }
+      }
+      .animate-scroll-wheel { animation: scroll-wheel 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite; will-change: transform, opacity; }
 
       .tilt { transform-style: preserve-3d; will-change: transform; }
       .tilt-inner { transform: translateZ(40px); }
@@ -712,7 +719,7 @@
         <div class="hero-reveal mt-16 flex flex-col items-center gap-2 opacity-40" style="transition-delay:400ms" aria-hidden="true">
           <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-slate-400">Scroll</span>
           <div class="w-5 h-8 rounded-full border-2 border-slate-300 flex justify-center pt-1.5">
-            <div class="w-1 h-2 rounded-full bg-slate-400 animate-bounce"></div>
+            <div class="w-1 h-2 rounded-full bg-slate-400 animate-scroll-wheel"></div>
           </div>
         </div>
       </div>
@@ -1432,7 +1439,7 @@
     </main>
 
     <!-- ========== FOOTER ========== -->
-    <footer class="relative z-10 pt-12 pb-10 mt-10 overflow-hidden" role="contentinfo">
+    <footer class="relative z-10 pt-12 pb-10 overflow-hidden" role="contentinfo">
       <!-- Premium Animated Background -->
       <div class="absolute inset-0 z-0 pointer-events-none" aria-hidden="true">
         <!-- Base Glass Layer -->
